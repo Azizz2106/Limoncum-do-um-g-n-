@@ -1,0 +1,109 @@
+body {
+ 
+ background-image: url("balonlimonn.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+ 
+ 
+  margin: 0;
+  padding: 0;
+  font-family: 'Great Vibes', cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.701);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.772);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #cc0066;
+}
+
+.password-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.password-container input {
+  padding: 10px;
+  width: 50%;
+  border: 2px solid #cc0066;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.password-container button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#toggleBtn {
+  background-color: #dddddd7f;
+  font-size: 0.8em;     /* Yazı boyutu */
+  padding: 6px 8px;     /* İç boşluk (butonun boyutu) */
+  height: 40px;         /* Sabit yükseklik (isteğe bağlı) */
+  line-height: 1;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.letter-text {
+  font-size: 2em;
+  color: #252525;
+}
+#loginBtn {
+  background-color: #cc0066;  /* arka plan rengi */
+  color: white;               /* yazı rengi */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+#loginBtn:hover {
+  background-color: #820606;  /* hover (üzerine gelince) rengi */
+}
+.password-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 0; /* alttaki uyarı mesajı için boşluk kaldırıldı */
+  flex-wrap: wrap; /* böylece taşma olursa alt satıra geçer */
+}
+
+.error-message {
+  font-family: 'Arial', sans-serif;    /* error mesaj fon növü */
+  color: red;
+  font-size: 1em;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%; /*  genişlik  */
+  order: 999; /* görünürlük için son sıraya al */
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Şifreli Mektup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">💌 Sana Özel Bir Mektup<br>
+    Bakalım şifreyi bulabilecekmisin<br>
+</h1>
+    <div class="password-container">
+      <input type="password" id="password" placeholder="Şifreyi gir...">
+      <button id="toggleBtn" onclick="togglePassword()">👁️</button>
+      <button id="loginBtn" onclick="checkPassword()">Giriş Yap</button>
+      <p id="error-message" class="error-message hidden">Şifre yanlış!</p>
+      
+    </div>
+    <div id="letter" class="hidden">
+      <p class="letter-text">
+        Sevgili Limoncum,<br><br>
+        Benim için çok değerlisin. Daima mutlu olmanı arzu edirəm. Tüm diləklərin, istəklərin gerçək olsun.
+        Uzak olsun bizden keder, seven kalplere el ver<br>
+        Kadehler kalksın dostlar, Limoncum doğmuş meğerr.<br>
+         Səninlə paylaştığım anlar çok dəyərlidir, iyi ki varsın.<br>
+        Doğum günün kutlu olsun! 🎉🎂<br>
+        <div style="text-align: left; margin-top: 20px; font-size: 30px">
+  Sevgilerle,<br>
+  En iyi arkadaşın
+</div>
+        
+
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
